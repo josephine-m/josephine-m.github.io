@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color:whitesmoke;
+}
+
+a {
+	color:red;
+}
+
+div {
+	color:lightpink;
+}
+
+div.name {
+	color:black;
+	font-size:50px;
+	text-align:center;
+	font-style:italic;
+	text-transform: uppercase;
+}
+
+div.project1 {
+	width:300px;
+	height:300px;
+	background-color:mistyrose;
+	color:rosybrown;
+	font-family:sans-serif;
+	display:inline-block;
+	padding:10px;
+}
+
+div.project2 {
+	width:300px;
+	height:300px;
+	background-color:rosybrown;
+	color:mistyrose;
+	font-family:sans-serif;
+	display:inline-block;
+	padding:10px;
+	margin:100px;
+	margin: top 400px;;
+
+}
