@@ -1,44 +1,713 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
-	background-color:whitesmoke;
+	font-family: SweetTalk;
+	font-size: 64px;
+	background-color:aliceblue;
 }
 
 a {
-	color:red;
+	color:coral;
+	text-decoration: none;
 }
 
-div {
-	color:lightpink;
+.title {
+	color:cadetblue;
+	font: size 200px;
+	text-align: center;
+	margin-top: 50px;
+} 
+
+img {
+	width: 400px;
+	margin-top: 100px;
+	
 }
 
-div.name {
-	color:black;
-	font-size:50px;
-	text-align:center;
-	font-style:italic;
-	text-transform: uppercase;
-}
-
-div.project1 {
-	width:300px;
-	height:300px;
-	background-color:mistyrose;
-	color:rosybrown;
-	font-family:sans-serif;
-	display:inline-block;
-	padding:10px;
-}
-
-div.project2 {
-	width:300px;
-	height:300px;
-	background-color:rosybrown;
-	color:mistyrose;
-	font-family:sans-serif;
-	display:inline-block;
-	padding:10px;
-	margin:100px;
-	margin: top 400px;;
+.imagesindex {
+	width: 400px;
+	margin-top: 100px;
 
 }
+
+.imagesone {
+	width:400px;
+	margin-top:-75px;
+	margin-left: 500px;
+	margin-right: 500px;	
+}
+
+.imagesoneone {
+	width:400px;
+	margin-top:-200px;
+	margin-left: 100px;
+	margin-right: 500px;
+
+}
+
+.imagesonetwo {
+	width:600px;
+	margin-top:-50px;
+	margin-left: 800px;
+	margin-right: 500px;
+}
+
+.imagesonethree {
+	width:600px;
+	margin-top:-1000px;
+	margin-left: 850px;
+	margin-right: 400px;
+}
+
+.imagestwo {
+	width:600px;
+	margin-top:-50px;
+	margin-left: 470px;
+	margin-right: 500px;
+}
+
+.imagesthree {
+	width:600px;
+	margin-top:-400px;
+	margin-left: 470px;
+	margin-right: 500px;
+}
+
+.imagesthreetwo {
+	width:600px;
+	margin-top:-50px;
+	margin-left: 470px;
+	margin-right: 500px;
+}
+
+.imagesfinone {
+	width:600px;
+	margin-top:-800px;
+	margin-left: 900px;
+	margin-right: 500px;
+}
+
+.imagesfintwo {
+	width:600px;
+	margin-top: -75px;
+	margin-left: 850px;
+	margin-right: 500px;
+}
+
+.imagesfinthree {
+	width:600px;
+	margin-top: -100px;
+	margin-left: 850px;
+	margin-right: 500px;
+}
+
+.imagesfinfour {
+	width:600px;
+	margin-top: -100px;
+	margin-left: 850px;
+	margin-right: 500px;
+}
+
+/* Index Page */
+
+
+
+.emojione {
+text-align: right;
+position:fixed;
+line-height: 400px;
+bottom: -150px;
+right: 10px;
+}
+
+
+.bodyindex {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: cadetblue;
+	line-height: 30px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+
+}
+
+
+.letsbegin {
+	color: ivory;
+	text-align: center;
+	margin-top: 20px;
+	background-image: url("background/indexbg.jpeg");
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+	padding-bottom: 10px;
+	box-shadow: 0px 10px 40px cadetblue;
+
+}
+
+
+.menuindex {
+	color: ivory;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+	background-color:cadetblue;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+	padding-bottom: 10px;
+}
+
+
+/* Level 1 */
+
+
+
+.bodylevelone {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color:cadetblue;
+	line-height: 30px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+}
+
+.bodyleveloneoptionone {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 60px;
+	padding-left:60px;
+	background-color:cadetblue;
+	margin-left: 10px;
+	margin-right: 1000px;
+	margin-top:50px;
+	border-radius:20px
+
+}
+
+.bodyleveloneoptiontwo {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left:60px;
+	padding-right:40px;
+	background-color:cadetblue;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top:-250px;
+	border-radius:20px;
+
+}
+
+.bodyleveloneoptionthree {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left:60px;
+	padding-right:20px;
+	background-color:cadetblue;
+	margin-left: 1000px;
+	margin-right: 10px;
+	margin-top:-250px;
+	border-radius:20px
+}
+
+.emojitwo {
+	text-align: right;
+	position:fixed;
+	line-height: 400px;
+	bottom: -150px;
+	right: 50px;
+	}
+
+
+	/* Level 2.1 */
+
+.bodyleveltwoone {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: cadetblue;
+	line-height: 30px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 20px;
+
+}
+
+.bodyleveltwooneoptionone {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left:60px;
+	padding-right: 60px;
+	background-color:cadetblue;
+	margin-left: 10px;
+	margin-right: 1000px;
+	margin-top:50px;
+	border-radius:20px
+}
+
+
+.bodyleveltwooneoptiontwo {
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left:60px;
+	padding-right:40px;
+	background-color:cadetblue;
+	margin-left: 1000px;
+	margin-right: 10px;
+	margin-top:-300px;
+	border-radius:20px
+}
+
+.emojithree {
+	text-align: right;
+	position:fixed;
+	line-height: 400px;
+	bottom: -150px;
+	right: 50px;
+}
+
+
+
+	/* Level 2.2 */
+
+
+	.bodyleveltwotwo {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.bodyleveltwotwooptionone {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left:60px;
+		padding-right: 60px;
+		background-color:cadetblue;
+		margin-left: 10px;
+		margin-right: 1000px;
+		margin-top:-300px;
+		border-radius:20px
+	}
+
+	.bodyleveltwotwooptiontwo {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left:60px;
+		padding-right:40px;
+		background-color:cadetblue;
+		margin-left: 1000px;
+		margin-right: 10px;
+		margin-top:-300px;
+		border-radius:20px
+	}
+
+	.emojifour {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
+
+	/* Level 3.1 */
+
+
+	.bodylevelthreeone {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.bodylevelthreeoneoptionone {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left:60px;
+		padding-right: 60px;
+		background-color:cadetblue;
+		margin-left: 10px;
+		margin-right: 1000px;
+		margin-top:100px;
+		border-radius:20px
+	}
+
+	.bodylevelthreeoneoptiontwo {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left:60px;
+		padding-right:40px;
+		background-color:cadetblue;
+		margin-left: 1000px;
+		margin-right: 10px;
+		margin-top:-400px;
+		border-radius:20px
+	}
+
+	.emojifive {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
+
+	/* Level 3.2 */
+
+	.bodylevelthreetwo {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.bodylevelthreetwooptionone {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left:60px;
+		padding-right: 60px;
+		background-color:cadetblue;
+		margin-left: 10px;
+		margin-right: 1000px;
+		margin-top:50px;
+		border-radius:20px
+	}
+
+	.bodylevelthreetwooptiontwo {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left:60px;
+		padding-right:40px;
+		background-color:cadetblue;
+		margin-left: 1000px;
+		margin-right: 10px;
+		margin-top:-300px;
+		border-radius:20px	
+	}
+
+	.emojisix {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
+
+
+	/* Finish General */
+
+	.finishmenu {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		padding-left:60px;
+		padding-right: 60px;
+		background-color:cadetblue;
+		margin-left: 10px;
+		margin-right: 1000px;
+		margin-top:50px;
+		border-radius:20px
+	}
+
+	.linkothers {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		padding-left:60px;
+		padding-right: 60px;
+		background-color:cadetblue;
+		margin-left: 10px;
+		margin-right: 1000px;
+		margin-top:50px;
+		border-radius:20px	
+	}
+
+
+
+	/* Finish 1 */
+
+	
+
+	.bodyfinishone {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color: cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+		
+	}
+
+	.finishoneprize {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color: cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.emojiseven {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
+
+
+
+	/* Finish 2 */
+
+
+	.bodyfinishtwo {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.finishtwoprize {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 25px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.emojieight {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
+
+
+
+	/* Finish 3 */
+
+
+	.bodyfinishthree {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.finishthreeprize {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 25px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.emojinine {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
+
+
+
+	/* Finish 4 */
+
+
+	.bodyfinishfour {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 25px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.finishfourprize {
+		color: aliceblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 20px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 200px;
+		padding-right: 200px;
+		background-color:cadetblue;
+		line-height: 30px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+
+	.emojiten {
+		text-align: right;
+		position:fixed;
+		line-height: 400px;
+		bottom: -150px;
+		right: 50px;
+	}
