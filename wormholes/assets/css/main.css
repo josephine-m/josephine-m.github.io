@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: aliceblue;
+}
+
 .title {
 	color:cadetblue;
 	font: size 200px;
@@ -80,7 +84,7 @@ img {
 
 .imagesfinone {
 	width:600px;
-	margin-top:-800px;
+	margin-top:-700px;
 	margin-left: 900px;
 	margin-right: 500px;
 }
@@ -134,7 +138,26 @@ right: 10px;
 	margin-left: 100px;
 	margin-right: 100px;
 	border-radius: 20px;
+	animation: backgroundchange 5s infinite;
 
+}
+
+@keyframes backgroundchange {
+	0% {
+		background-color:cadetblue ;
+	}
+
+	25% {
+		background-color: darkturquoise;
+	}
+
+	50% {
+		background-color:lightblue;
+	}
+
+	75% {
+		background-color:darkturquoise;
+	}
 }
 
 
@@ -142,13 +165,17 @@ right: 10px;
 	color: ivory;
 	text-align: center;
 	margin-top: 20px;
-	background-image: url("background/indexbg.jpeg");
+	background-color: cadetblue;
 	margin-left: 100px;
 	margin-right: 100px;
 	border-radius: 20px;
 	padding-bottom: 10px;
 	box-shadow: 0px 10px 40px cadetblue;
 
+}
+
+.letsbegin:hover {
+	background-color: coral;
 }
 
 
@@ -162,6 +189,10 @@ right: 10px;
 	margin-right: 100px;
 	border-radius: 20px;
 	padding-bottom: 10px;
+}
+
+.menuindex:hover {
+	background-color: coral;
 }
 
 
@@ -191,16 +222,19 @@ right: 10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: left;
 	font-size: 20px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-right: 60px;
 	padding-left:60px;
 	background-color:cadetblue;
 	margin-left: 10px;
 	margin-right: 1000px;
 	margin-top:50px;
-	border-radius:20px
+	border-radius:20px;
+}
 
+.bodyleveloneoptionone:hover {
+	background-color:coral;
 }
 
 .bodyleveloneoptiontwo {
@@ -208,16 +242,19 @@ right: 10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: left;
 	font-size: 20px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-left:60px;
 	padding-right:40px;
 	background-color:cadetblue;
 	margin-left: 500px;
 	margin-right: 500px;
-	margin-top:-250px;
+	margin-top:-150px;
 	border-radius:20px;
+}
 
+.bodyleveloneoptiontwo:hover {
+	background-color:coral;
 }
 
 .bodyleveloneoptionthree {
@@ -225,15 +262,19 @@ right: 10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: left;
 	font-size: 20px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-left:60px;
 	padding-right:20px;
 	background-color:cadetblue;
 	margin-left: 1000px;
 	margin-right: 10px;
-	margin-top:-250px;
-	border-radius:20px
+	margin-top:-150px;
+	border-radius:20px;
+}
+
+.bodyleveloneoptionthree:hover {
+	background-color:coral;
 }
 
 .emojitwo {
@@ -252,8 +293,8 @@ right: 10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-size: 20px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-left: 200px;
 	padding-right: 200px;
 	background-color: cadetblue;
@@ -270,15 +311,20 @@ right: 10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: left;
 	font-size: 20px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-left:60px;
 	padding-right: 60px;
 	background-color:cadetblue;
 	margin-left: 10px;
 	margin-right: 1000px;
 	margin-top:50px;
-	border-radius:20px
+	border-radius:20px;
+	transition: 2s;
+}
+
+.bodyleveltwooneoptionone:hover {
+	background-color: crimson;
 }
 
 
@@ -287,16 +333,22 @@ right: 10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: left;
 	font-size: 20px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	padding-left:60px;
 	padding-right:40px;
 	background-color:cadetblue;
 	margin-left: 1000px;
 	margin-right: 10px;
-	margin-top:-300px;
-	border-radius:20px
+	margin-top:-200px;
+	border-radius:20px;
+	transition: 2s;
 }
+
+.bodyleveltwooneoptiontwo:hover {
+	background-color:goldenrod;
+}
+
 
 .emojithree {
 	text-align: right;
@@ -316,8 +368,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left: 200px;
 		padding-right: 200px;
 		background-color:cadetblue;
@@ -333,8 +385,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left:60px;
 		padding-right: 60px;
 		background-color:cadetblue;
@@ -344,20 +396,28 @@ right: 10px;
 		border-radius:20px
 	}
 
+	.bodyleveltwotwooptionone:hover {
+		background-color: gray;
+	}
+
 	.bodyleveltwotwooptiontwo {
 		color: aliceblue;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left:60px;
 		padding-right:40px;
 		background-color:cadetblue;
 		margin-left: 1000px;
 		margin-right: 10px;
-		margin-top:-300px;
+		margin-top:-170px;
 		border-radius:20px
+	}
+
+	.bodyleveltwotwooptiontwo:hover {
+		background-color: gray;
 	}
 
 	.emojifour {
@@ -393,15 +453,20 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left:60px;
 		padding-right: 60px;
 		background-color:cadetblue;
 		margin-left: 10px;
 		margin-right: 1000px;
 		margin-top:100px;
-		border-radius:20px
+		border-radius:20px;
+		transition:2s;
+	}
+
+	.bodylevelthreeoneoptionone:hover {
+		background-color:olive;
 	}
 
 	.bodylevelthreeoneoptiontwo {
@@ -409,15 +474,20 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left:60px;
 		padding-right:40px;
 		background-color:cadetblue;
 		margin-left: 1000px;
 		margin-right: 10px;
-		margin-top:-400px;
-		border-radius:20px
+		margin-top:-300px;
+		border-radius:20px;
+		transition:2s;
+	}
+
+	.bodylevelthreeoneoptiontwo:hover {
+		background-color:olive;
 	}
 
 	.emojifive {
@@ -452,15 +522,19 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left:60px;
 		padding-right: 60px;
 		background-color:cadetblue;
 		margin-left: 10px;
 		margin-right: 1000px;
-		margin-top:50px;
-		border-radius:20px
+		margin-top:0px;
+		border-radius:20px;
+	}
+
+	.bodylevelthreetwooptionone:hover {
+		background-color:navy;
 	}
 
 	.bodylevelthreetwooptiontwo {
@@ -468,15 +542,19 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left:60px;
 		padding-right:40px;
 		background-color:cadetblue;
 		margin-left: 1000px;
 		margin-right: 10px;
-		margin-top:-300px;
+		margin-top:-200px;
 		border-radius:20px	
+	}
+
+	.bodylevelthreetwooptiontwo:hover {
+		background-color:navy;
 	}
 
 	.emojisix {
@@ -495,8 +573,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 		padding-left:60px;
 		padding-right: 60px;
 		background-color:cadetblue;
@@ -506,13 +584,17 @@ right: 10px;
 		border-radius:20px
 	}
 
+	.finishmenu:hover {
+		background-color: coral;
+	}
+
 	.linkothers {
 		color: aliceblue;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 20px;
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 		padding-left:60px;
 		padding-right: 60px;
 		background-color:cadetblue;
@@ -522,6 +604,9 @@ right: 10px;
 		border-radius:20px	
 	}
 
+	.linkothers:hover {
+		background-color: coral;
+	}
 
 
 	/* Finish 1 */
@@ -543,7 +628,26 @@ right: 10px;
 		margin-left: 100px;
 		margin-right: 100px;
 		border-radius: 20px;
+		animation: finishonechange 5s infinite
 		
+	}
+
+	@keyframes finishonechange {
+		0% {
+			background-color:cadetblue ;
+		}
+	
+		25% {
+			background-color:orange;
+		}
+	
+		50% {
+			background-color:goldenrod;
+		}
+	
+		75% {
+			background-color:gold;
+		}
 	}
 
 	.finishoneprize {
@@ -551,8 +655,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
 		font-size: 20px;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		padding-left: 200px;
 		padding-right: 200px;
 		background-color: cadetblue;
@@ -561,6 +665,7 @@ right: 10px;
 		margin-left: 100px;
 		margin-right: 100px;
 		border-radius: 20px;
+		animation: finishonechange 5s infinite
 	}
 
 	.emojiseven {
@@ -581,8 +686,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left: 200px;
 		padding-right: 200px;
 		background-color:cadetblue;
@@ -598,8 +703,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
 		font-size: 20px;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 20px;
+		padding-bottom:20px;
 		padding-left: 200px;
 		padding-right: 200px;
 		background-color:cadetblue;
@@ -608,6 +713,7 @@ right: 10px;
 		margin-left: 100px;
 		margin-right: 100px;
 		border-radius: 20px;
+		animation: finishonechange 5s infinite;
 	}
 
 	.emojieight {
@@ -628,8 +734,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
 		font-size: 20px;
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		padding-left: 200px;
 		padding-right: 200px;
 		background-color:cadetblue;
@@ -645,8 +751,8 @@ right: 10px;
 		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
 		font-size: 20px;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		padding-left: 200px;
 		padding-right: 200px;
 		background-color:cadetblue;
@@ -655,6 +761,7 @@ right: 10px;
 		margin-left: 100px;
 		margin-right: 100px;
 		border-radius: 20px;
+		animation: finishonechange 5s infinite;
 	}
 
 	.emojinine {
@@ -685,6 +792,25 @@ right: 10px;
 		margin-left: 100px;
 		margin-right: 100px;
 		border-radius: 20px;
+		animation: finishfourchange 5s infinite
+	}
+
+	@keyframes finishfourchange {
+		0% {
+			background-color:cadetblue ;
+		}
+	
+		25% {
+			background-color:black;
+		}
+	
+		50% {
+			background-color:navy;
+		}
+	
+		75% {
+			background-color:black;
+		}
 	}
 
 	.finishfourprize {
