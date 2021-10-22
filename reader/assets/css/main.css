@@ -1,0 +1,282 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.title {
+	color:hotpink;
+	background-color:white;
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:center;
+	animation: backgroundchange 5s infinite;
+}
+
+
+.youandothers {
+	width: 500px;
+	height: 500px;
+	background-color:orange;
+	color:orangered;
+	border-radius:100%;
+	margin-top:20px;
+	text-align: center;
+	display:flex;
+	flex-wrap: wrap;
+  	position: fixed;
+	padding-left:140px;
+	padding-top:200px;
+	cursor:pointer;
+}
+
+.youandothers:hover {
+filter: blur(5px);
+transition:2s;
+background-color: transparent;
+}
+
+
+.backgroundtext {
+	color:salmon;
+	text-align: center;
+	animation: backgroundchange 5s infinite;
+
+}
+
+@keyframes backgroundchange {
+	0% {
+		color:orange;
+	}
+	25% {
+		color:orangered;
+	}
+	50% {
+		color:orchid;
+	}
+	75% {
+		color:violet;
+	}
+	90% {
+		color:plum;
+	}
+}
+
+.youandyourself {
+	width: 500px;
+	height: 500px;
+	background-color:orangered;
+	color:orchid;
+	border-radius:100%;
+	text-align: center;
+	margin-left: 500px;
+	margin-top:20px;
+	display:flex;
+	flex-wrap: wrap;
+  	position: fixed;
+	padding-left:140px;
+	padding-top:200px;
+	cursor:pointer;
+
+}
+
+.youandyourself:hover {
+filter: blur(5px);
+transition:2s;
+background-color: transparent;
+}
+
+.youandart {
+	width: 500px;
+	height: 500px;
+	background-color:orchid;
+	color:orange;
+	border-radius:100%;
+	text-align: center;
+	margin-left:1000px;
+	margin-top:20px;
+	display:flex;
+	flex-wrap: wrap;
+  	position: fixed;
+	padding-left:140px;
+	padding-top:200px;
+	cursor:pointer;
+}
+
+.youandart:hover {
+filter: blur(5px);
+transition:2s;
+background-color: transparent;
+}
+
+.menu {
+	height:100vh;
+	width:33%;
+	background-color: orange;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:orangered;
+	position:fixed;
+	right:0;
+	top:0px;
+	padding:20px;
+	box-shadow: -5px 0px 10px 2px orangered;
+	margin-right:-40%;
+	transition:1s;
+}
+
+.menu.open {
+	margin-right:0%;
+	transition:1s;
+}
+
+.menutap {
+	position:fixed;
+	width: 50px;
+	height: 50px;
+	background-color: tomato;
+	color:transparent;
+	border-radius:100%;
+	top:30px;
+	right:30px;
+	z-index: 2;
+	animation: menuchange 3s infinite;
+}
+
+@keyframes menuchange {
+	0% {
+		background-color:orange;
+		width: 45px;
+		height: 55px;
+	}
+	25% {
+		background-color:orangered;
+		width: 50px;
+		height: 50px;
+	}
+	50% {
+		background-color:orchid;
+		width: 45px;
+		height: 55px;
+	}
+	75% {
+		background-color:violet;
+		width: 50px;
+		height: 50px;
+	}
+}
+
+
+.button {
+	cursor:pointer;
+
+}
+
+
+.text {
+	color:purple;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.textone {
+	margin-top: -683px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:600px;
+	height:100vh;
+	color:tomato;
+	background-color: transparent;
+	overflow: scroll;
+	animation: backgroundchange 5s infinite;
+}
+
+.textonetwo {
+	margin-left:600px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top:20px;
+	width:840px;
+	height:100vh;
+	background-color:orange;
+	color:orangered;
+	overflow: scroll;
+}
+
+.texttwo {
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:600px;
+	height:100vh;
+	background-color:transparent;
+	overflow: scroll;
+	animation:backgroundchange 5s infinite;
+}
+
+.texttwotwo {
+	margin-left:600px;
+	margin-top:-683px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:840px;
+	height:100vh;
+	color: orchid;
+	background-color:orange;
+	overflow: scroll;
+}
+
+.textthree {
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:600px;
+	height:100vh;
+	background-color:transparent;
+	overflow: scroll;
+	animation:backgroundchange 5s infinite;
+}
+
+.textthreetwo {
+	margin-left:600px;
+	margin-top:-683px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:840px;
+	height:100vh;
+	color:orangered;
+	background-color:plum;
+	overflow: scroll;
+}
+
+.bodytext {
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+.italictext {
+	padding-top: 20px;
+	padding-bottom:20px;
+	font-style:italic;	
+}
+
+.boldtext {
+	padding-top: 20px;
+	padding-bottom:20px;
+	font-style:oblique;
+}
+
