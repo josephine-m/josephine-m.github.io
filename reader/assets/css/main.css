@@ -4,12 +4,12 @@ body {
 }
 
 a {
-	color:red;
+	color:tomato;
 }
 
 .title {
 	color:hotpink;
-	background-color:white;
+	background-color:papayawhip;
 	font-size: 60px;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-top: 20px;
@@ -184,7 +184,7 @@ background-color: transparent;
 }
 
 .textone {
-	margin-top: -683px;
+	margin-top: -690px;
 	padding-left: 20px;
 	padding-right:20px;
 	padding-top:20px;
@@ -192,7 +192,7 @@ background-color: transparent;
 	width:600px;
 	height:100vh;
 	color:tomato;
-	background-color: transparent;
+	background-color:transparent;
 	overflow: scroll;
 	animation: backgroundchange 5s infinite;
 }
@@ -203,10 +203,11 @@ background-color: transparent;
 	padding-right:20px;
 	padding-top:20px;
 	padding-bottom: 20px;
-	margin-top:20px;
+	margin-top:10px;
 	width:840px;
 	height:100vh;
 	background-color:orange;
+	border-radius: 5%;
 	color:orangered;
 	overflow: scroll;
 }
@@ -234,6 +235,7 @@ background-color: transparent;
 	height:100vh;
 	color: orchid;
 	background-color:orange;
+	border-radius: 5%;
 	overflow: scroll;
 }
 
@@ -260,6 +262,7 @@ background-color: transparent;
 	height:100vh;
 	color:orangered;
 	background-color:plum;
+	border-radius: 5%;
 	overflow: scroll;
 }
 
@@ -278,5 +281,60 @@ background-color: transparent;
 	padding-top: 20px;
 	padding-bottom:20px;
 	font-style:oblique;
+}
+
+.boxtextone {
+	background-color: plum;
+	color:orangered;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left: 20px;
+	border-radius: 10%;
+}
+
+.boxtexttwo {
+	background-color:thistle;
+	color:orangered;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left: 20px;
+	border-radius: 10%;	
+}
+
+.boxtextthree {
+	background-color:pink;
+	color:orangered;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left: 20px;
+	border-radius: 10%;	
+}
+
+.boxtextfour {
+	background-color:orange;
+	color:orangered;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left: 20px;
+	border-radius: 10%;	
+}
+
+.define {
+	color: purple;
+}
+
+.numbers {
+	padding-bottom: 10px;
+	font-size: medium;
+}
+
+.imagesone {
+filter:brightness(20%)
+}
+
+.imagesone:hover {
+	filter:brightness(100%);
+	transition: 2s;
+	
 }
 
