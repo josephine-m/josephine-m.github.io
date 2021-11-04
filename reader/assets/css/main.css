@@ -296,6 +296,15 @@ background-color: transparent;
 	padding-bottom:20px;
 	padding-left: 20px;
 	border-radius: 10%;
+	font-size: medium;
+	cursor:pointer;
+}
+
+.boxtextone:hover {
+	background-color: orangered;
+	color:plum;
+	font-size: x-large;
+	transition: 0.5s
 }
 
 .boxtexttwo {
@@ -305,6 +314,15 @@ background-color: transparent;
 	padding-bottom:20px;
 	padding-left: 20px;
 	border-radius: 10%;	
+	font-size: medium;
+	cursor:pointer;
+}
+
+.boxtexttwo:hover {
+	background-color:orangered;
+	color:thistle;
+	font-size:x-large;
+	transition:0.5s;
 }
 
 .boxtextthree {
@@ -314,6 +332,15 @@ background-color: transparent;
 	padding-bottom:20px;
 	padding-left: 20px;
 	border-radius: 10%;	
+	font-size: medium;
+	cursor:pointer;
+}
+
+.boxtextthree:hover {
+	background-color:orangered;
+	color:pink;
+	font-size:x-large;
+	transition:0.5s;
 }
 
 .boxtextfour {
@@ -323,6 +350,15 @@ background-color: transparent;
 	padding-bottom:20px;
 	padding-left: 20px;
 	border-radius: 10%;	
+	font-size: medium;
+	cursor:pointer;
+}
+
+.boxtextfour:hover {
+	background-color:orangered;
+	color:orange;
+	font-size:x-large;
+	transition:0.5s;
 }
 
 .define {
