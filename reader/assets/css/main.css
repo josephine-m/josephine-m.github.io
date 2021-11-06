@@ -58,13 +58,28 @@ background-color: transparent;
 	0% {
 		color:orange;
 	}
-	25% {
+	10% {
 		color:orangered;
 	}
-	50% {
+	20% {
 		color:orchid;
 	}
-	75% {
+	30% {
+		color:violet;
+	}
+	40% {
+		color:plum;
+	}
+	50% {
+		color:orange;
+	}
+	60% {
+		color:orangered;
+	}
+	70% {
+		color:orchid;
+	}
+	80% {
 		color:violet;
 	}
 	90% {
@@ -159,20 +174,30 @@ background-color: transparent;
 		width: 45px;
 		height: 55px;
 	}
-	25% {
+	20% {
 		background-color:orangered;
 		width: 50px;
 		height: 50px;
 	}
-	50% {
+	40% {
 		background-color:orchid;
 		width: 45px;
 		height: 55px;
 	}
-	75% {
+	60% {
 		background-color:violet;
 		width: 50px;
 		height: 50px;
+	}
+	80% {
+		background-color:orchid;
+		width: 45px;
+		height: 55px;
+	}
+	100% {
+		background-color:orange;
+		width: 45px;
+		height: 55px;
 	}
 }
 
@@ -380,7 +405,36 @@ filter:grayscale(100%);
 .imagesone:hover {
 	filter:brightness(100%);
 	filter:grayscale(0%);
-	transition: 1s;
-	
+	transition: 1s;	
+}
+
+.sound {
+	width:100%;
+	border:0px solid orangered;
+	background-color: orangered;
+	border-radius: 5%;
+}
+
+.sound:hover {
+	background-color: transparent;
+	border:1px solid transparent;
+	transition: 2s;
+	cursor:pointer;
+}
+
+.soundtwo {
+	width:100%;
+	border:1px solid orchid;
+	background-color: orchid;
+	border-radius: 5%;
+	transition: 2s;
+	cursor:pointer;
+}
+
+.soundtwo:hover {
+	width:100%;
+	border:1px solid transparent;
+	background-color: transparent;
+	border-radius: 5%;
 }
 
