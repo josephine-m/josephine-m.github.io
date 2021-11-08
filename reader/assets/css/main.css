@@ -214,7 +214,7 @@ background-color: transparent;
 }
 
 .textone {
-	margin-top: -690px;
+	margin-top: -680px;
 	padding-left: 20px;
 	padding-right:20px;
 	padding-top:20px;
@@ -422,19 +422,6 @@ filter:grayscale(100%);
 	cursor:pointer;
 }
 
-.soundtwo {
-	width:100%;
-	border:1px solid orchid;
-	background-color: orchid;
-	border-radius: 5%;
-	transition: 2s;
-	cursor:pointer;
-}
 
-.soundtwo:hover {
-	width:100%;
-	border:1px solid transparent;
-	background-color: transparent;
-	border-radius: 5%;
-}
+
 
